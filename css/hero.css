@@ -17,6 +17,11 @@
 
 }
 
+.button-hero:hover
+{
+  background-color: #404BBF;
+}
+
 button 
 {
   display: flex;
