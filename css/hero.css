@@ -17,11 +17,6 @@
 
 }
 
-.button-hero:hover
-{
-  background-color: #404BBF;
-}
-
 button 
 {
   display: flex;
@@ -32,8 +27,8 @@ button
   margin-right: auto;
 }
 
-.button-header:hover,
-.button-header:focus 
+.button-hero:hover,
+.button-hero:focus 
 {
 background-color: #404BBF;
 }
