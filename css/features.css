@@ -1,0 +1,21 @@
+.features-container ul
+{
+ display: flex;
+ justify-content: space-between;
+ gap: 24px;
+ margin-top: 120px;
+ margin-bottom: 120px;
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: 0;
+}
+
+.features-container h3
+{
+padding-bottom: 8px;
+}
+
+.features-container p
+{
+max-width: 264px;
+}

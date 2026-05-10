@@ -42,3 +42,30 @@
 {
     color: #404BBF;
 }
+
+.header-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav
+{
+flex-grow: 1;
+}
+
+.header-nav-link
+{
+    display: flex;
+    column-gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 76px;
+}
+
+.social-list
+{
+    display: flex;
+    column-gap: 40px;
+}

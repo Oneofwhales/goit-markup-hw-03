@@ -23,4 +23,11 @@
 .footer p
 {
     color: #F4F4FD;
+    max-width: 264px;
+    padding-top: 16px;
+}
+
+.footer-container
+{
+    padding: 100px 156px;
 }

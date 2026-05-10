@@ -1,14 +1,32 @@
 .team
 {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.team-card
+/* .team-card
 {
     background-color: #FFFFFF;
-}
+} */
 .team-card h3,
 .team-card p
 {
     text-align: center;
+}
+
+.team-container ul
+{
+    display: flex;
+    gap: 24px;
+    padding-left: 0;
+    margin-top: 72px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-container li
+{
+    max-width: 264;
+    background-color: #FFFFFF;
 }

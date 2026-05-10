@@ -1,0 +1,25 @@
+.portfolio-container
+{
+ margin-bottom: 120px;
+ padding-top: 120px;
+}
+
+
+.portfolio-container ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+    padding-left: 0;
+}
+
+.list-item img
+{
+    display: block;
+}
+
+.list-item 
+{
+  width: calc((100% - 48px) / 3);
+}
