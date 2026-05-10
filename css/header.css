@@ -1,3 +1,8 @@
+.header
+{
+    border-bottom: 1px solid #E7E9FC;
+}
+
 .logo 
 {
  font-family: "Raleway", sans-serif;
@@ -59,9 +64,12 @@ flex-grow: 1;
 {
     display: flex;
     column-gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
     padding-left: 76px;
+}
+.header-nav-items
+{
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .social-list

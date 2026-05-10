@@ -5,28 +5,36 @@
     padding-bottom: 120px;
 }
 
-/* .team-card
-{
-    background-color: #FFFFFF;
-} */
-.team-card h3,
-.team-card p
+.team-card-content
 {
     text-align: center;
+    padding: 32px 16px;
 }
+
+.team-card-content h3
+{
+    margin-bottom: 8px;
+}
+
 
 .team-container ul
 {
     display: flex;
     gap: 24px;
     padding-left: 0;
-    margin-top: 72px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.team-container li
+.team-container img
 {
-    max-width: 264;
+    display: block;
+}
+
+.team-card
+{
     background-color: #FFFFFF;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    max-width: 264px;
 }
