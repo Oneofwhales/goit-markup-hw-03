@@ -1,27 +1,22 @@
-.features
-{
+.features {
   padding-top: 120px;
   padding-bottom: 120px;  
 }
 
-.features-container ul
-{
-display: flex;
- gap: 24px;
- padding-left: 0;
+.features-list {
+  display: flex;
+  gap: 24px;
+  padding-left: 0;
 }
 
-.features-container li 
-{
+.features-item {
   flex-basis: 264px;
 }
 
-.features-container h3
-{
-padding-bottom: 8px;
+.features-title {
+  margin-bottom: 8px;
 }
 
-.features-container p
-{
-max-width: 264px;
+.features-text {
+  max-width: 264px;
 }
