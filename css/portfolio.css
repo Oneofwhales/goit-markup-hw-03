@@ -14,7 +14,7 @@
     padding-left: 0;
 }
 
-.list-item img
+.portfolio-img
 {
     display: block;
 }
@@ -31,7 +31,7 @@
   border-top: none;   
 }
 
-.portfolio-card-content h3
+.portfolio-card-title
 {
     margin-bottom: 8px;
 }
