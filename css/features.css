@@ -1,4 +1,4 @@
-.features-container
+.features
 {
   padding-top: 120px;
   padding-bottom: 120px;  
@@ -9,6 +9,11 @@
 display: flex;
  gap: 24px;
  padding-left: 0;
+}
+
+.features-container li 
+{
+  flex-basis: 264px;
 }
 
 .features-container h3
